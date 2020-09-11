@@ -74,5 +74,9 @@
   {
     "url": "./stage/2020-09-03T09:48:21.791Z_stage_HasuraBenchmark.json",
     "type": "agg"
+  },
+  {
+    "url": "./stage/2020-09-11T18:10:13.212Z_stage_HasuraBenchmark.json",
+    "type": "agg"
   }
 ]

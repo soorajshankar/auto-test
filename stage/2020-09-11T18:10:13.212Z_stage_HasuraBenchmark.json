@@ -1,0 +1,481 @@
+[
+  {
+    "name": "users-autocannon-500rps",
+    "time": {
+      "start": "2020-09-11T18:09:16.215Z",
+      "end": "2020-09-11T18:09:21.257Z"
+    },
+    "requests": {
+      "count": 0,
+      "average": 0
+    },
+    "response": {
+      "totalBytes": 0,
+      "bytesPerSecond": 0
+    },
+    "histogram": {
+      "json": {
+        "p50": 0,
+        "p75": 0,
+        "p90": 0,
+        "p97_5": 0,
+        "p99": 0,
+        "p99_9": 0,
+        "p99_99": 0,
+        "p99_999": 0,
+        "max": 0,
+        "totalCount": 0,
+        "mean": 0,
+        "stdDeviation": 0
+      },
+      "text": "       Value     Percentile TotalCount 1/(1-Percentile)\n\n#[Mean    =        0.000, StdDeviation   =        0.000]\n#[Max     =        0.000, Total count    =            0]\n#[Buckets =            1, SubBuckets     =         2048]\n",
+      "parsedStats": []
+    }
+  },
+  {
+    "name": "users-k6-500rps",
+    "time": {
+      "start": "2020-09-11T18:09:21.303Z",
+      "end": "2020-09-11T18:09:54.898Z"
+    },
+    "requests": {
+      "count": 68,
+      "average": 2.2595134373420125
+    },
+    "response": {
+      "totalBytes": 128150,
+      "bytesPerSecond": 4258.1859852261605
+    },
+    "histogram": {
+      "json": {
+        "p50": 256,
+        "p75": 261,
+        "p90": 266,
+        "p97_5": 276,
+        "p99": 468,
+        "p99_9": 468,
+        "p99_99": 468,
+        "p99_999": 468,
+        "max": 468.414795,
+        "totalCount": 67,
+        "mean": 258.4029850746269,
+        "stdDeviation": 27.01191539263519
+      },
+      "text": "       Value     Percentile TotalCount 1/(1-Percentile)\n\n     241.000 0.000000000000          3           1.00\n     243.000 0.100000000000          7           1.11\n     247.000 0.200000000000         14           1.25\n     251.000 0.300000000000         23           1.43\n     255.000 0.400000000000         28           1.67\n     256.000 0.500000000000         34           2.00\n     257.000 0.550000000000         39           2.22\n     258.000 0.600000000000         43           2.50\n     259.000 0.650000000000         45           2.86\n     260.000 0.700000000000         49           3.33\n     261.000 0.750000000000         52           4.00\n     261.000 0.775000000000         52           4.44\n     262.000 0.800000000000         54           5.00\n     263.000 0.825000000000         57           5.71\n     263.000 0.850000000000         57           6.67\n     264.000 0.875000000000         59           8.00\n     265.000 0.887500000000         60           8.89\n     266.000 0.900000000000         61          10.00\n     267.000 0.912500000000         63          11.43\n     267.000 0.925000000000         63          13.33\n     267.000 0.937500000000         63          16.00\n     268.000 0.943750000000         64          17.78\n     268.000 0.950000000000         64          20.00\n     272.000 0.956250000000         65          22.86\n     272.000 0.962500000000         65          26.67\n     272.000 0.968750000000         65          32.00\n     276.000 0.971875000000         66          35.56\n     276.000 0.975000000000         66          40.00\n     276.000 0.978125000000         66          45.71\n     276.000 0.981250000000         66          53.33\n     276.000 0.984375000000         66          64.00\n     468.000 0.985937500000         67          71.11\n     468.000 1.000000000000         67\n#[Mean    =      258.403, StdDeviation   =       27.012]\n#[Max     =      468.415, Total count    =           67]\n#[Buckets =            1, SubBuckets     =         2048]\n",
+      "parsedStats": [
+        {
+          "value": "243.000",
+          "percentile": "0.100000000000",
+          "totalCount": "7",
+          "ofOnePercentile": "1.11"
+        },
+        {
+          "value": "247.000",
+          "percentile": "0.200000000000",
+          "totalCount": "14",
+          "ofOnePercentile": "1.25"
+        },
+        {
+          "value": "251.000",
+          "percentile": "0.300000000000",
+          "totalCount": "23",
+          "ofOnePercentile": "1.43"
+        },
+        {
+          "value": "255.000",
+          "percentile": "0.400000000000",
+          "totalCount": "28",
+          "ofOnePercentile": "1.67"
+        },
+        {
+          "value": "256.000",
+          "percentile": "0.500000000000",
+          "totalCount": "34",
+          "ofOnePercentile": "2.00"
+        },
+        {
+          "value": "257.000",
+          "percentile": "0.550000000000",
+          "totalCount": "39",
+          "ofOnePercentile": "2.22"
+        },
+        {
+          "value": "258.000",
+          "percentile": "0.600000000000",
+          "totalCount": "43",
+          "ofOnePercentile": "2.50"
+        },
+        {
+          "value": "259.000",
+          "percentile": "0.650000000000",
+          "totalCount": "45",
+          "ofOnePercentile": "2.86"
+        },
+        {
+          "value": "260.000",
+          "percentile": "0.700000000000",
+          "totalCount": "49",
+          "ofOnePercentile": "3.33"
+        },
+        {
+          "value": "261.000",
+          "percentile": "0.750000000000",
+          "totalCount": "52",
+          "ofOnePercentile": "4.00"
+        },
+        {
+          "value": "261.000",
+          "percentile": "0.775000000000",
+          "totalCount": "52",
+          "ofOnePercentile": "4.44"
+        },
+        {
+          "value": "262.000",
+          "percentile": "0.800000000000",
+          "totalCount": "54",
+          "ofOnePercentile": "5.00"
+        },
+        {
+          "value": "263.000",
+          "percentile": "0.825000000000",
+          "totalCount": "57",
+          "ofOnePercentile": "5.71"
+        },
+        {
+          "value": "263.000",
+          "percentile": "0.850000000000",
+          "totalCount": "57",
+          "ofOnePercentile": "6.67"
+        },
+        {
+          "value": "264.000",
+          "percentile": "0.875000000000",
+          "totalCount": "59",
+          "ofOnePercentile": "8.00"
+        },
+        {
+          "value": "265.000",
+          "percentile": "0.887500000000",
+          "totalCount": "60",
+          "ofOnePercentile": "8.89"
+        },
+        {
+          "value": "266.000",
+          "percentile": "0.900000000000",
+          "totalCount": "61",
+          "ofOnePercentile": "10.00"
+        },
+        {
+          "value": "267.000",
+          "percentile": "0.912500000000",
+          "totalCount": "63",
+          "ofOnePercentile": "11.43"
+        },
+        {
+          "value": "267.000",
+          "percentile": "0.925000000000",
+          "totalCount": "63",
+          "ofOnePercentile": "13.33"
+        },
+        {
+          "value": "267.000",
+          "percentile": "0.937500000000",
+          "totalCount": "63",
+          "ofOnePercentile": "16.00"
+        },
+        {
+          "value": "268.000",
+          "percentile": "0.943750000000",
+          "totalCount": "64",
+          "ofOnePercentile": "17.78"
+        },
+        {
+          "value": "268.000",
+          "percentile": "0.950000000000",
+          "totalCount": "64",
+          "ofOnePercentile": "20.00"
+        },
+        {
+          "value": "272.000",
+          "percentile": "0.956250000000",
+          "totalCount": "65",
+          "ofOnePercentile": "22.86"
+        },
+        {
+          "value": "272.000",
+          "percentile": "0.962500000000",
+          "totalCount": "65",
+          "ofOnePercentile": "26.67"
+        },
+        {
+          "value": "272.000",
+          "percentile": "0.968750000000",
+          "totalCount": "65",
+          "ofOnePercentile": "32.00"
+        },
+        {
+          "value": "276.000",
+          "percentile": "0.971875000000",
+          "totalCount": "66",
+          "ofOnePercentile": "35.56"
+        },
+        {
+          "value": "276.000",
+          "percentile": "0.975000000000",
+          "totalCount": "66",
+          "ofOnePercentile": "40.00"
+        },
+        {
+          "value": "276.000",
+          "percentile": "0.978125000000",
+          "totalCount": "66",
+          "ofOnePercentile": "45.71"
+        },
+        {
+          "value": "276.000",
+          "percentile": "0.981250000000",
+          "totalCount": "66",
+          "ofOnePercentile": "53.33"
+        },
+        {
+          "value": "276.000",
+          "percentile": "0.984375000000",
+          "totalCount": "66",
+          "ofOnePercentile": "64.00"
+        },
+        {
+          "value": "468.000",
+          "percentile": "0.985937500000",
+          "totalCount": "67",
+          "ofOnePercentile": "71.11"
+        }
+      ]
+    }
+  },
+  {
+    "name": "users-wrk2-500rps",
+    "requests": {
+      "average": 15.512355193159,
+      "count": 78
+    },
+    "response": {
+      "totalBytes": 97890,
+      "bytesPerSecond": 19468.005767414
+    },
+    "time": {
+      "start": "2020-09-11T18:09:55.006Z",
+      "end": "2020-09-11T18:10:13.208Z"
+    },
+    "histogram": {
+      "text": "       Value   Percentile   TotalCount 1/(1-Percentile)\n\n    1000.959     0.000000            1         1.00\n    1492.991     0.100000            8         1.11\n    1970.175     0.200000           16         1.25\n    2414.591     0.300000           23         1.43\n    2742.271     0.400000           31         1.67\n    3117.055     0.500000           38         2.00\n    3346.431     0.550000           42         2.22\n    3457.023     0.600000           46         2.50\n    3629.055     0.650000           50         2.86\n    3862.527     0.700000           54         3.33\n    4026.367     0.750000           57         4.00\n    4069.375     0.775000           59         4.44\n    4100.095     0.800000           61         5.00\n    4259.839     0.825000           63         5.71\n    4300.799     0.850000           65         6.67\n    4337.663     0.875000           67         8.00\n    4407.295     0.887500           68         8.89\n    4485.119     0.900000           69        10.00\n    4501.503     0.912500           70        11.43\n    4542.463     0.925000           71        13.33\n    4571.135     0.937500           72        16.00\n    4571.135     0.943750           72        17.78\n    4575.231     0.950000           73        20.00\n    4575.231     0.956250           73        22.86\n    4640.767     0.962500           74        26.67\n    4640.767     0.968750           74        32.00\n    4640.767     0.971875           74        35.56\n    4710.399     0.975000           75        40.00\n    4710.399     0.978125           75        45.71\n    4710.399     0.981250           75        53.33\n    4710.399     0.984375           75        64.00\n    4710.399     0.985938           75        71.11\n    4755.455     0.987500           76        80.00\n    4755.455     1.000000           76          inf\n#[Mean    =     3054.730, StdDeviation   =     1074.962]\n#[Max     =     4751.360, Total count    =           76]\n#[Buckets =           27, SubBuckets     =         2048]\n",
+      "parsedStats": [
+        {
+          "value": "1492.991",
+          "percentile": "0.100000",
+          "totalCount": "8",
+          "ofOnePercentile": "1.11"
+        },
+        {
+          "value": "1970.175",
+          "percentile": "0.200000",
+          "totalCount": "16",
+          "ofOnePercentile": "1.25"
+        },
+        {
+          "value": "2414.591",
+          "percentile": "0.300000",
+          "totalCount": "23",
+          "ofOnePercentile": "1.43"
+        },
+        {
+          "value": "2742.271",
+          "percentile": "0.400000",
+          "totalCount": "31",
+          "ofOnePercentile": "1.67"
+        },
+        {
+          "value": "3117.055",
+          "percentile": "0.500000",
+          "totalCount": "38",
+          "ofOnePercentile": "2.00"
+        },
+        {
+          "value": "3346.431",
+          "percentile": "0.550000",
+          "totalCount": "42",
+          "ofOnePercentile": "2.22"
+        },
+        {
+          "value": "3457.023",
+          "percentile": "0.600000",
+          "totalCount": "46",
+          "ofOnePercentile": "2.50"
+        },
+        {
+          "value": "3629.055",
+          "percentile": "0.650000",
+          "totalCount": "50",
+          "ofOnePercentile": "2.86"
+        },
+        {
+          "value": "3862.527",
+          "percentile": "0.700000",
+          "totalCount": "54",
+          "ofOnePercentile": "3.33"
+        },
+        {
+          "value": "4026.367",
+          "percentile": "0.750000",
+          "totalCount": "57",
+          "ofOnePercentile": "4.00"
+        },
+        {
+          "value": "4069.375",
+          "percentile": "0.775000",
+          "totalCount": "59",
+          "ofOnePercentile": "4.44"
+        },
+        {
+          "value": "4100.095",
+          "percentile": "0.800000",
+          "totalCount": "61",
+          "ofOnePercentile": "5.00"
+        },
+        {
+          "value": "4259.839",
+          "percentile": "0.825000",
+          "totalCount": "63",
+          "ofOnePercentile": "5.71"
+        },
+        {
+          "value": "4300.799",
+          "percentile": "0.850000",
+          "totalCount": "65",
+          "ofOnePercentile": "6.67"
+        },
+        {
+          "value": "4337.663",
+          "percentile": "0.875000",
+          "totalCount": "67",
+          "ofOnePercentile": "8.00"
+        },
+        {
+          "value": "4407.295",
+          "percentile": "0.887500",
+          "totalCount": "68",
+          "ofOnePercentile": "8.89"
+        },
+        {
+          "value": "4485.119",
+          "percentile": "0.900000",
+          "totalCount": "69",
+          "ofOnePercentile": "10.00"
+        },
+        {
+          "value": "4501.503",
+          "percentile": "0.912500",
+          "totalCount": "70",
+          "ofOnePercentile": "11.43"
+        },
+        {
+          "value": "4542.463",
+          "percentile": "0.925000",
+          "totalCount": "71",
+          "ofOnePercentile": "13.33"
+        },
+        {
+          "value": "4571.135",
+          "percentile": "0.937500",
+          "totalCount": "72",
+          "ofOnePercentile": "16.00"
+        },
+        {
+          "value": "4571.135",
+          "percentile": "0.943750",
+          "totalCount": "72",
+          "ofOnePercentile": "17.78"
+        },
+        {
+          "value": "4575.231",
+          "percentile": "0.950000",
+          "totalCount": "73",
+          "ofOnePercentile": "20.00"
+        },
+        {
+          "value": "4575.231",
+          "percentile": "0.956250",
+          "totalCount": "73",
+          "ofOnePercentile": "22.86"
+        },
+        {
+          "value": "4640.767",
+          "percentile": "0.962500",
+          "totalCount": "74",
+          "ofOnePercentile": "26.67"
+        },
+        {
+          "value": "4640.767",
+          "percentile": "0.968750",
+          "totalCount": "74",
+          "ofOnePercentile": "32.00"
+        },
+        {
+          "value": "4640.767",
+          "percentile": "0.971875",
+          "totalCount": "74",
+          "ofOnePercentile": "35.56"
+        },
+        {
+          "value": "4710.399",
+          "percentile": "0.975000",
+          "totalCount": "75",
+          "ofOnePercentile": "40.00"
+        },
+        {
+          "value": "4710.399",
+          "percentile": "0.978125",
+          "totalCount": "75",
+          "ofOnePercentile": "45.71"
+        },
+        {
+          "value": "4710.399",
+          "percentile": "0.981250",
+          "totalCount": "75",
+          "ofOnePercentile": "53.33"
+        },
+        {
+          "value": "4710.399",
+          "percentile": "0.984375",
+          "totalCount": "75",
+          "ofOnePercentile": "64.00"
+        },
+        {
+          "value": "4710.399",
+          "percentile": "0.985938",
+          "totalCount": "75",
+          "ofOnePercentile": "71.11"
+        },
+        {
+          "value": "4755.455",
+          "percentile": "0.987500",
+          "totalCount": "76",
+          "ofOnePercentile": "80.00"
+        }
+      ],
+      "json": {
+        "totalCount": 78,
+        "max": 4751.36,
+        "mean": 3054.7301052632,
+        "stdDeviation": 1074.9617961226,
+        "p50": 3117.055,
+        "p75": 4026.367,
+        "p90": 4407.295,
+        "p97_5": 4640.767,
+        "p99": 4710.399,
+        "p99_9": 4755.455,
+        "p99_99": 4755.455,
+        "p99_999": 4755.455
+      }
+    }
+  }
+]

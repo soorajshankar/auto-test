@@ -1,55 +1,55 @@
 {
   "latency_aggregate": {
-    "max": 4767.744,
-    "stdev": 1056.5393168724,
-    "min": 964.608,
-    "mean": 2948.7522253521
+    "max": 4747.264,
+    "stdev": 977.38731334505,
+    "min": 969.728,
+    "mean": 3151.04256
   },
-  "duration_in_milliseconds": 5069.983,
-  "requests": 144,
-  "bytes_transfer_per_second": 35645.089934227,
+  "duration_in_milliseconds": 5073.033,
+  "requests": 102,
+  "bytes_transfer_per_second": 25233.425447853,
   "latency_distribution": [
     {
       "percentile": 50,
-      "latency_in_milliseconds": 2947.071
+      "latency_in_milliseconds": 3174.399
     },
     {
       "percentile": 75,
-      "latency_in_milliseconds": 3858.431
+      "latency_in_milliseconds": 3991.551
     },
     {
       "percentile": 90,
-      "latency_in_milliseconds": 4349.951
+      "latency_in_milliseconds": 4399.103
     },
     {
       "percentile": 95,
-      "latency_in_milliseconds": 4538.367
+      "latency_in_milliseconds": 4612.095
     },
     {
       "percentile": 97.5,
-      "latency_in_milliseconds": 4587.519
+      "latency_in_milliseconds": 4661.247
     },
     {
       "percentile": 99,
-      "latency_in_milliseconds": 4689.919
+      "latency_in_milliseconds": 4743.167
     },
     {
       "percentile": 99.9,
-      "latency_in_milliseconds": 4771.839
+      "latency_in_milliseconds": 4751.359
     },
     {
       "percentile": 99.99,
-      "latency_in_milliseconds": 4771.839
+      "latency_in_milliseconds": 4751.359
     },
     {
       "percentile": 99.999,
-      "latency_in_milliseconds": 4771.839
+      "latency_in_milliseconds": 4751.359
     },
     {
       "percentile": 100,
-      "latency_in_milliseconds": 4771.839
+      "latency_in_milliseconds": 4751.359
     }
   ],
-  "bytes": 180720,
-  "requests_per_second": 28.402462098985
+  "bytes": 128010,
+  "requests_per_second": 20.106315097891
 }

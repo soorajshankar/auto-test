@@ -90,5 +90,9 @@
   {
     "url": "./stage/2020-09-16T07:03:03.106Z_stage_HasuraBenchmark.json",
     "type": "agg"
+  },
+  {
+    "url": "./stage12/2020-09-18T06:10:04.739Z_stage12_HasuraBenchmark.json",
+    "type": "agg"
   }
 ]
